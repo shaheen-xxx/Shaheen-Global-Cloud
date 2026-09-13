@@ -1,0 +1,6 @@
+# OpenTofu state files are never committed to version control
+terraform.tfstate*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+!terraform.tfvars.example
